@@ -49,9 +49,9 @@ from keras.models import Model
 ### Reading, Pre-processing Data:
 ```python
 data = pd.read_csv("ner_dataset.csv", encoding="latin1")
-data.head(35)
+data.head(50)
 data = data.fillna(method="ffill")
-data.head(35)
+data.head(50)
 
 print("Unique words in corpus:", data['Word'].nunique())
 print("Unique tags in corpus:", data['Tag'].nunique())
