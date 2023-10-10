@@ -103,10 +103,10 @@ type(X1[0])
 X1[0]
 
 max_len = 50
-
+```
 
 ### Padding:
-python
+```python
 nums = [[1], [2, 3], [4, 5, 6]]
 sequence.pad_sequences(nums)
 
